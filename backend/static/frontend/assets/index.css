@@ -1,0 +1,18 @@
+body {
+    background-color: #adadad;
+    font-family: 'Segoe UI';
+    font-weight: 380;
+}
+header {
+    font-family: 'Segoe UI';
+    font-weight: 380;
+}
+footer {
+    font-family: 'Segoe UI';
+    font-weight: 380;
+}
+
+.main {
+    min-height: 100vh;
+    height: 100%;
+}
