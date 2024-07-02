@@ -1,9 +1,9 @@
-from django.shortcuts import render
-
 # Create your views here.
-def index(request):
-    return render(request, 'index.html')
+from django.shortcuts import render
+from django.conf import settings
 
-def home(request):
-    context = {}
-    return render(request, 'hub/home.html')
+DEBUG = False
+
+def home_screen_view(request):
+	context = {}
+	return render(request, "hub/home.html", context)
